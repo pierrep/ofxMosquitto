@@ -5,8 +5,7 @@ openFrameworks addon to working with Mosquitto.
 Mosquitto is a open source MQTT library for C/C++.  
 More about, see [mosquitto.org](http://mosquitto.org/).  
 
-**Important:**  
-**This addon is currentlly running on Max OS X only. Tested with Xcode 5 and oF 0.8.0.**
+This addon should run on Linux, OSX and Windows, though you may need to supply your own mosquitto libraries.
 
 
 ## License
