@@ -2,7 +2,9 @@
 
 using namespace mosqpp;
 
-ofxMosquitto::ofxMosquitto() : mosquittopp()
+string ofxMosquitto::keyfilePath = "";
+
+	ofxMosquitto::ofxMosquitto() : mosquittopp()
 {
     lib_init();
     bConnected = false;
