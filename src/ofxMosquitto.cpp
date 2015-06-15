@@ -212,7 +212,7 @@ void ofxMosquitto::on_connect(int rc)
 
 void ofxMosquitto::on_disconnect(int rc)
 {
-    if (MOSQ_ERR_SUCCESS == rc)
+    if (MOSQ_ERR_CONN_LOST == rc)
     {
         bConnected = false;
     } else ofLogError("ofxMosquitto") << mosqpp::strerror(rc);
